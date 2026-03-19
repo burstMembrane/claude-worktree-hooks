@@ -4,5 +4,7 @@
   "description": "Automated worktree setup and teardown for Claude Code parallel sessions",
   "author": {
     "name": "Liam Power"
-  }
+  },
+  "hooks": "hooks/hooks.json",
+  "skills": "skills/"
 }
