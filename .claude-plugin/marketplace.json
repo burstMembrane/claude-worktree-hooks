@@ -6,7 +6,7 @@
   "plugins": [
     {
       "name": "worktree-setup",
-      "source": ".",
+      "source": "plugins/worktree-setup",
       "description": "Automated worktree setup and teardown for Claude Code parallel sessions",
       "version": "0.1.0"
     }
