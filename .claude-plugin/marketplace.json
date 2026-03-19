@@ -1,0 +1,14 @@
+{
+  "name": "worktree-setup",
+  "owner": {
+    "name": "Liam Power"
+  },
+  "plugins": [
+    {
+      "name": "worktree-setup",
+      "source": ".",
+      "description": "Automated worktree setup and teardown for Claude Code parallel sessions",
+      "version": "0.1.0"
+    }
+  ]
+}

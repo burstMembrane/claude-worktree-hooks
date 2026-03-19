@@ -4,14 +4,17 @@ A Claude Code plugin that automates worktree setup and teardown. When you run `c
 
 ## Installation
 
+Add the marketplace and install the plugin:
+
 ```bash
-claude plugin add /path/to/worktree-setup
+/plugin marketplace add burstMembrane/claude-worktree-hooks
+/plugin install worktree-setup@worktree-setup
 ```
 
-Or for local development:
+Or install from a local clone:
 
 ```bash
-claude --plugin-dir /path/to/worktree-setup
+claude plugin add /path/to/claude-worktree-hooks
 ```
 
 ### Dependencies
