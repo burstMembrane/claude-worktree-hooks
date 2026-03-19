@@ -1,0 +1,8 @@
+{
+  "name": "worktree-setup",
+  "version": "0.1.0",
+  "description": "Automated worktree setup and teardown for Claude Code parallel sessions",
+  "author": {
+    "name": "Liam Power"
+  }
+}

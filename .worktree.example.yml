@@ -1,0 +1,13 @@
+# .worktree.yml — configuration for the WorktreeCreate hook.
+# Copy this file to .worktree.yml in your project root and customize.
+
+# Files and directories to copy from the main repo into each new worktree.
+# Directories are copied recursively. Missing entries are skipped.
+copy:
+  - .env
+  - .env.local
+
+# Commands to run inside the worktree after creation.
+# Each command runs in the worktree root. Failures are logged, not fatal.
+setup:
+  - npm install
